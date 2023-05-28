@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="../../assets/output.css" />
+
+    <title>فارس نیوز</title>
+  </head>
+  <body class="font-IranSans bg-slate-200">
+    <!-- ####################################################### -->
+
+    <!-- top navbar -->
+    <section
+      class="bg-sky-800 text-white text-bold text-[.8rem] py-2 hidden lg:block"
+    >
+      <nav class="flex wrapper justify-end">
+        <a
+          href="#"
+          class="first:text-yellow-500 last:border-l-0 border-l px-2 hover:text-yellow-500"
+          >اخبار</a
+        >
+        <a
+          href="#"
+          class="first:text-yellow-500 last:border-l-0 border-l px-2 hover:text-yellow-500"
+          >فارس من</a
+        >
+        <a
+          href="#"
+          class="first:text-yellow-500 last:border-l-0 border-l px-2 hover:text-yellow-500"
+          >افکار سنجی</a
+        >
+        <a
+          href="#"
+          class="first:text-yellow-500 last:border-l-0 border-l px-2 hover:text-yellow-500"
+          >دانشکده</a
+        >
+        <a
+          href="#"
+          class="first:text-yellow-500 last:border-l-0 border-l px-2 hover:text-yellow-500"
+          >انتشارات</a
+        >
+        <a
+          href="#"
+          class="first:text-yellow-500 last:border-l-0 border-l px-2 hover:text-yellow-500"
+          >توانا</a
+        >
+        <a
+          href="#"
+          class="first:text-yellow-500 last:border-l-0 border-l px-2 hover:text-yellow-500"
+          >فارس نوجوان</a
+        >
+      </nav>
+    </section>
+
+    <!-- ####################################################### -->
+
+    <!-- navbar -->
+    <header class="bg-white text-sky-800 z-20 shadow-lg" id="nav-header">
+      <div
+        class="container mx-auto flex justify-between items-center py-2"
+        id="nav-wrapper"
+      >
+        <i
+          class="bx bx-menu bx-md cursor-pointer p-2 lg:hidden"
+          id="menu-open"
+        ></i>
+
+        <!-- logo -->
+        <a href="#" class="">
+          <img
+            src="../../assets/farsnews/farsnews.svg"
+            alt="لوگو"
+            class="w-24"
+          />
+        </a>
+
+        <!-- desktop navigation -->
+        <nav class="hidden lg:flex text-[.8rem] font-bold">
+          <a
+            href="#"
+            class="grid place-content-center px-2 border-l last:border-l-0 hover:text-yellow-500"
+          >
+            <i class="bx bx-home text-xl"></i>
+          </a>
+          <a
+            href="#"
+            class="grid place-content-center px-2 border-l last:border-l-0 hover:text-yellow-500"
+            >جامعه</a
+          >
+          <a
+            href="#"
+            class="grid place-content-center px-2 border-l last:border-l-0 hover:text-yellow-500"
+            >اقتصاد</a
+          >
+          <a
+            href="#"
+            class="grid place-content-center px-2 border-l last:border-l-0 hover:text-yellow-500"
+            >بین الملل</a
+          >
+          <a
+            href="#"
+            class="grid place-content-center px-2 border-l last:border-l-0 hover:text-yellow-500"
+            >سیاست</a
+          >
+          <a
+            href="#"
+            class="grid place-content-center px-2 border-l last:border-l-0 hover:text-yellow-500"
+            >علم و پیشرفت</a
+          >
+          <a
+            href="#"
+            class="grid place-content-center px-2 border-l last:border-l-0 hover:text-yellow-500"
+            >دانشگاه</a
+          >
+          <a
+            href="#"
+            class="grid place-content-center px-2 border-l last:border-l-0 hover:text-yellow-500"
+            >فرهنگ</a
+          >
+          <a
+            href="#"
+            class="grid place-content-center px-2 border-l last:border-l-0 hover:text-yellow-500"
+            >هنر و رسانه</a
+          >
+          <a
+            href="#"
+            class="grid place-content-center px-2 border-l last:border-l-0 hover:text-yellow-500"
+            >استانها</a
+          >
+          <a
+            href="#"
+            class="grid place-content-center px-2 border-l last:border-l-0 hover:text-yellow-500"
+            >عکس</a
+          >
+          <a
+            href="#"
+            class="grid place-content-center px-2 border-l last:border-l-0 hover:text-yellow-500"
+            >فیلم</a
+          >
+          <a
+            href="#"
+            class="grid place-content-center px-2 border-l last:border-l-0 hover:text-yellow-500"
+            >ورزش</a
+          >
+          <a
+            href="#"
+            class="grid place-content-center px-2 border-l last:border-l-0 hover:text-yellow-500"
+            >فارس پلاس</a
+          >
+          <a
+            href="#"
+            class="grid place-content-center px-2 border-l last:border-l-0 hover:text-yellow-500"
+            >زندگی</a
+          >
+        </nav>
+
+        <!-- search bar -->
+        <i
+          class="bx bx-search text-3xl font-bold cursor-pointer pl-2"
+          id="search-modal"
+        ></i>
+      </div>
+
+      <!-- mobile navigation -->
+      <nav id="mobile-nav" class="hidden lg:hidden pt-6 shadow-md">
+        <div class="p-4 grid gap-3 grid-cols-2 text-[.8rem]">
+          <a
+            href="#"
+            class="bg-slate-200 p-2 rounded-tl-lg rounded-br-lg hover:bg-yellow-500 flex gap-1 items-center last:col-span-2"
+          >
+            <i class="bx bx-chevron-left text-xl"></i>
+            <span>اخبار</span>
+          </a>
+          <a
+            href="#"
+            class="bg-slate-200 p-2 rounded-tl-lg rounded-br-lg hover:bg-yellow-500 flex gap-1 items-center last:col-span-2"
+          >
+            <i class="bx bx-chevron-left text-xl"></i>
+            <span>فارس من</span>
+          </a>
+          <a
+            href="#"
+            class="bg-slate-200 p-2 rounded-tl-lg rounded-br-lg hover:bg-yellow-500 flex gap-1 items-center last:col-span-2"
+          >
+            <i class="bx bx-chevron-left text-xl"></i>
+            <span>افکارسنجی</span>
+          </a>
+          <a
+            href="#"
+            class="bg-slate-200 p-2 rounded-tl-lg rounded-br-lg hover:bg-yellow-500 flex gap-1 items-center last:col-span-2"
+          >
+            <i class="bx bx-chevron-left text-xl"></i>
+            <span>دانشکده</span>
+          </a>
+          <a
+            href="#"
+            class="bg-slate-200 p-2 rounded-tl-lg rounded-br-lg hover:bg-yellow-500 flex gap-1 items-center last:col-span-2"
+          >
+            <i class="bx bx-chevron-left text-xl"></i>
+            <span>فارس من</span>
+          </a>
+          <a
+            href="#"
+            class="bg-slate-200 p-2 rounded-tl-lg rounded-br-lg hover:bg-yellow-500 flex gap-1 items-center last:col-span-2"
+          >
+            <i class="bx bx-chevron-left text-xl"></i>
+            <span>توانا</span>
+          </a>
+          <a
+            href="#"
+            class="bg-slate-200 p-2 rounded-tl-lg rounded-br-lg hover:bg-yellow-500 flex gap-1 items-center last:col-span-2"
+          >
+            <i class="bx bx-chevron-left text-xl"></i>
+            <span>فارس نوجوان</span>
+          </a>
+          <a
+            href="#"
+            class="bg-slate-200 p-2 rounded-tl-lg rounded-br-lg hover:bg-yellow-500 flex gap-1 items-center last:col-span-2"
+          >
+            <i class="bx bx-chevron-left text-xl"></i>
+            <span>انتشارات</span>
+          </a>
+          <a
+            href="#"
+            class="bg-slate-200 p-2 rounded-tl-lg rounded-br-lg hover:bg-yellow-500 flex gap-1 items-center last:col-span-2"
+          >
+            <i class="bx bx-chevron-left text-xl"></i>
+            <span>دیگر زبانها (other languages)</span>
+          </a>
+        </div>
+        <hr class="my-6" />
+        <a
+          href="#"
+          class="block p-4 border-b-4 last:border-none hover:bg-yellow-500 hover:text-white"
+          >صفحه نخست</a
+        >
+        <a
+          href="#"
+          class="block p-4 border-b-4 last:border-none hover:bg-yellow-500 hover:text-white"
+          >جامعه</a
+        >
+        <a
+          href="#"
+          class="block p-4 border-b-4 last:border-none hover:bg-yellow-500 hover:text-white"
+          >اقتصاد</a
+        >
+        <a
+          href="#"
+          class="block p-4 border-b-4 last:border-none hover:bg-yellow-500 hover:text-white"
+          >بین الملل</a
+        >
+        <a
+          href="#"
+          class="block p-4 border-b-4 last:border-none hover:bg-yellow-500 hover:text-white"
+          >سیاست</a
+        >
+        <a
+          href="#"
+          class="block p-4 border-b-4 last:border-none hover:bg-yellow-500 hover:text-white"
+          >علم و پیشرفت</a
+        >
+        <a
+          href="#"
+          class="block p-4 border-b-4 last:border-none hover:bg-yellow-500 hover:text-white"
+          >دانشگاه</a
+        >
+        <a
+          href="#"
+          class="block p-4 border-b-4 last:border-none hover:bg-yellow-500 hover:text-white"
+          >فرهنگ</a
+        >
+        <a
+          href="#"
+          class="block p-4 border-b-4 last:border-none hover:bg-yellow-500 hover:text-white"
+          >هنر و رسانه</a
+        >
+        <a
+          href="#"
+          class="block p-4 border-b-4 last:border-none hover:bg-yellow-500 hover:text-white"
+          >استانها</a
+        >
+        <a
+          href="#"
+          class="block p-4 border-b-4 last:border-none hover:bg-yellow-500 hover:text-white"
+          >عکس</a
+        >
+        <a
+          href="#"
+          class="block p-4 border-b-4 last:border-none hover:bg-yellow-500 hover:text-white"
+          >فیلم</a
+        >
+        <a
+          href="#"
+          class="block p-4 border-b-4 last:border-none hover:bg-yellow-500 hover:text-white"
+          >ورزش</a
+        >
+        <a
+          href="#"
+          class="block p-4 border-b-4 last:border-none hover:bg-yellow-500 hover:text-white"
+          >زندگی</a
+        >
+        <a
+          href="#"
+          class="block p-4 border-b-4 last:border-none hover:bg-yellow-500 hover:text-white"
+          >فارس پلاس</a
+        >
+        <a
+          href="#"
+          class="block p-4 border-b-4 last:border-none hover:bg-yellow-500 hover:text-white"
+          >دفاتر منطقه ای</a
+        >
+      </nav>
+    </header>
+
+    <!-- ####################################################### -->
+
+    <!-- modal wrapper -->
+    <section
+      id="modal-wrapper"
+      class="bg-black/50 fixed top-0 left-0 w-full min-h-screen hidden"
+    >
+      <div class="fixed top-0 left-0 w-full h-full grid place-content-center">
+        <!-- modal body -->
+        <div
+          id="modal-body"
+          class="bg-white w-[90vw] max-w-lg rounded-lg shadow-lg overflow-hidden"
+          style="margin-top: -200px"
+        >
+          <!-- modal heading -->
+          <div class="bg-gray-200 flex justify-between items-center p-4">
+            <h4>جستجوی مطالب وبسایت</h4>
+            <i
+              id="modal-close"
+              class="bx bx-x bx-lg opacity-60 hover:opacity-100 cursor-pointer"
+            ></i>
+          </div>
+          <!-- modal content -->
+          <form class="px-2 py-6">
+            <input
+              type="text"
+              placeholder="عنوان جستجوی خود را بنویسید"
+              class="input"
+            />
+            <button type="submit" class="btn-blue mt-6 w-full">جستجو</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ####################################################### -->
+
+    <!-- main -->
+    <main class="container mx-auto my-8 px-2 md:px-0">
+      <section class="grid grid-cols-12 gap-2 mb-6">
+        <!-- top articles -->
+        <div class="col-span-12 lg:col-span-6">
+          <!-- header article -->
+          <article
+            class="rounded-tl-lg rounded-br-lg overflow-hidden relative mb-4"
+          >
+            <img
+              src="../../assets/farsnews/postpic001.bmp"
+              alt="تیتر"
+              class=""
+            />
+            <a href="#">
+              <h4
+                class="bg-black/30 absolute bottom-0 text-white p-3 hover:bg-black/60 duration-200"
+              >
+                گزارش گروه بین‌الملل خبرگزاری فارس، «فؤاد حسین» وزیر خارجه عراق
+                با «بدر البوسعیدی» همتای عمانی خود تلفنی گفت‌وگو کرد.
+              </h4>
+            </a>
+          </article>
+
+          <!-- selected articles -->
+          <section class="bg-white py-4 px-2">
+            <article class="grid grid-cols-12 gap-4">
+              <a href="#" class="relative col-span-4 group">
+                <img
+                  src="../../assets/farsnews/postpic002.bmp"
+                  alt=""
+                  class="rounded-tl-lg rounded-br-lg"
+                />
+                <span
+                  class="absolute top-0 right-2 px-1 bg-sky-700 text-white rounded-tl-lg rounded-br-lg opacity-0 group-hover:opacity-100 duration-200"
+                  >اقتصادی</span
+                >
+              </a>
+              <div class="col-span-7 h-full flex flex-col justify-between">
+                <a href="" class="font-bold hover:text-yellow-500">
+                  عمران خان خواستار گفت‌وگوی فوری شد/ هشدار درباره هرج و مرج
+                </a>
+
+                <a href="#" class="text-sky-700 flex items-center gap-3">
+                  <i class="bx bxs-check-circle text-yellow-500"></i>
+                  شاخص بورس نامتعادل شد</a
+                >
+              </div>
+
+              <hr />
+            </article>
+            <hr class="my-4" />
+
+            <article class="grid grid-cols-12 gap-4">
+              <a href="#" class="relative col-span-4 group">
+                <img
+                  src="../../assets/farsnews/postpic001.bmp"
+                  alt=""
+                  class="rounded-tl-lg rounded-br-lg"
+                />
+                <span
+                  class="absolute top-0 right-2 px-1 bg-sky-700 text-white rounded-tl-lg rounded-br-lg opacity-0 group-hover:opacity-100 duration-200"
+                  >اقتصادی</span
+                >
+              </a>
+              <div class="col-span-7 h-full flex flex-col justify-between">
+                <a href="" class="font-bold hover:text-yellow-500">
+                  عمران خان خواستار گفت‌وگوی فوری شد/ هشدار درباره هرج و مرج
+                </a>
+
+                <a href="#" class="text-sky-700 flex items-center gap-3">
+                  <i class="bx bxs-check-circle text-yellow-500"></i>
+                  شاخص بورس نامتعادل شد</a
+                >
+              </div>
+
+              <hr />
+            </article>
+            <hr class="my-4" />
+
+            <article class="grid grid-cols-12 gap-4">
+              <a href="#" class="relative col-span-4 group">
+                <img
+                  src="../../assets/farsnews/postpic003.bmp"
+                  alt=""
+                  class="rounded-tl-lg rounded-br-lg"
+                />
+                <span
+                  class="absolute top-0 right-2 px-1 bg-sky-700 text-white rounded-tl-lg rounded-br-lg opacity-0 group-hover:opacity-100 duration-200"
+                  >اقتصادی</span
+                >
+              </a>
+              <div class="col-span-7 h-full flex flex-col justify-between">
+                <a href="" class="font-bold hover:text-yellow-500">
+                  عمران خان خواستار گفت‌وگوی فوری شد/ هشدار درباره هرج و مرج
+                </a>
+
+                <a href="#" class="text-sky-700 flex items-center gap-3">
+                  <i class="bx bxs-check-circle text-yellow-500"></i>
+                  شاخص بورس نامتعادل شد</a
+                >
+              </div>
+
+              <hr />
+            </article>
+            <hr class="my-4" />
+
+            <article class="grid grid-cols-12 gap-4">
+              <a href="#" class="relative col-span-4 group">
+                <img
+                  src="../../assets/farsnews/postpic002.bmp"
+                  alt=""
+                  class="rounded-tl-lg rounded-br-lg"
+                />
+                <span
+                  class="absolute top-0 right-2 px-1 bg-sky-700 text-white rounded-tl-lg rounded-br-lg opacity-0 group-hover:opacity-100 duration-200"
+                  >اقتصادی</span
+                >
+              </a>
+              <div class="col-span-7 h-full flex flex-col justify-between">
+                <a href="" class="font-bold hover:text-yellow-500">
+                  عمران خان خواستار گفت‌وگوی فوری شد/ هشدار درباره هرج و مرج
+                </a>
+
+                <a href="#" class="text-sky-700 flex items-center gap-3">
+                  <i class="bx bxs-check-circle text-yellow-500"></i>
+                  شاخص بورس نامتعادل شد</a
+                >
+              </div>
+
+              <hr />
+            </article>
+            <hr class="my-4" />
+
+            <article class="grid grid-cols-12 gap-4">
+              <a href="#" class="relative col-span-4 group">
+                <img
+                  src="../../assets/farsnews/postpic003.bmp"
+                  alt=""
+                  class="rounded-tl-lg rounded-br-lg"
+                />
+                <span
+                  class="absolute top-0 right-2 px-1 bg-sky-700 text-white rounded-tl-lg rounded-br-lg opacity-0 group-hover:opacity-100 duration-200"
+                  >اقتصادی</span
+                >
+              </a>
+              <div class="col-span-7 h-full flex flex-col justify-between">
+                <a href="" class="font-bold hover:text-yellow-500">
+                  عمران خان خواستار گفت‌وگوی فوری شد/ هشدار درباره هرج و مرج
+                </a>
+
+                <a href="#" class="text-sky-700 flex items-center gap-3">
+                  <i class="bx bxs-check-circle text-yellow-500"></i>
+                  شاخص بورس نامتعادل شد</a
+                >
+              </div>
+
+              <hr />
+            </article>
+            <hr class="my-4" />
+          </section>
+        </div>
+        <!-- برگزیده ها ، پرخواننده ها و پربحث ها و توصیه شده ها -->
+        <div class="col-span-12 lg:col-span-3">
+          <section
+            class="rounded-tl-lg rounded-br-lg overflow-x-auto bg-white h-[300px] mb-6"
+          >
+            <div
+              class="bg-sky-700 px-2 py-1 flex items-center justify-between text-white"
+            >
+              <span class="text-sm">برگزیده ها</span>
+              <i class="bx bx-category text-xl"></i>
+            </div>
+
+            <div class="my-2 px-2">
+              <a href="#" class="group flex items-center gap-2 my-2">
+                <i class="bx bxl-netlify text-yellow-500"></i>
+                <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                  >الزامات گذار از جهان تک قطبی</span
+                >
+              </a>
+              <a href="#" class="group flex items-center gap-2 my-2">
+                <i class="bx bxl-netlify text-yellow-500"></i>
+                <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                  >الزامات گذار از جهان تک قطبی</span
+                >
+              </a>
+              <a href="#" class="group flex items-center gap-2 my-2">
+                <i class="bx bxl-netlify text-yellow-500"></i>
+                <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                  >الزامات گذار از جهان تک قطبی</span
+                >
+              </a>
+              <a href="#" class="group flex items-center gap-2 my-2">
+                <i class="bx bxl-netlify text-yellow-500"></i>
+                <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                  >الزامات گذار از جهان تک قطبی</span
+                >
+              </a>
+              <a href="#" class="group flex items-center gap-2 my-2">
+                <i class="bx bxl-netlify text-yellow-500"></i>
+                <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                  >الزامات گذار از جهان تک قطبی</span
+                >
+              </a>
+              <a href="#" class="group flex items-center gap-2 my-2">
+                <i class="bx bxl-netlify text-yellow-500"></i>
+                <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                  >الزامات گذار از جهان تک قطبی</span
+                >
+              </a>
+              <a href="#" class="group flex items-center gap-2 my-2">
+                <i class="bx bxl-netlify text-yellow-500"></i>
+                <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                  >الزامات گذار از جهان تک قطبی</span
+                >
+              </a>
+              <a href="#" class="group flex items-center gap-2 my-2">
+                <i class="bx bxl-netlify text-yellow-500"></i>
+                <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                  >الزامات گذار از جهان تک قطبی</span
+                >
+              </a>
+              <a href="#" class="group flex items-center gap-2 my-2">
+                <i class="bx bxl-netlify text-yellow-500"></i>
+                <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                  >گذار از جهان گذار از جهان گذار از جهان گذار از جهان الزامات
+                  گذار از جهان تک قطبی</span
+                >
+              </a>
+              <a href="#" class="group flex items-center gap-2 my-2">
+                <i class="bx bxl-netlify text-yellow-500"></i>
+                <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                  >الزامات گذار از جهان تک قطبی</span
+                >
+              </a>
+              <a href="#" class="group flex items-center gap-2 my-2">
+                <i class="bx bxl-netlify text-yellow-500"></i>
+                <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                  >الزامات گذار از جهان تک قطبی</span
+                >
+              </a>
+              <a href="#" class="group flex items-center gap-2 my-2">
+                <i class="bx bxl-netlify text-yellow-500"></i>
+                <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                  >گذار از جهان گذار از جهان گذار از جهان گذار از جهان الزامات
+                  گذار از جهان تک قطبی</span
+                >
+              </a>
+            </div>
+          </section>
+
+          <section
+            id="tab"
+            class="rounded-tl-lg bg-white max-h-[700px] overflow-x-auto"
+          >
+            <!-- headers -->
+            <div
+              class="border-cyan-500 grid grid-cols-3 gap-2"
+              id="tab-heading"
+            >
+              <div
+                class="rounded-tl-lg rounded-br-lg py-1 text-center cursor-pointer bg-yellow-500 text-white text-sm"
+              >
+                پر خواننده ها
+              </div>
+              <div
+                class="rounded-tl-lg rounded-br-lg py-1 text-center cursor-pointer bg-sky-700 text-white text-sm"
+              >
+                پربحث ها
+              </div>
+              <div
+                class="rounded-tl-lg rounded-br-lg py-1 text-center cursor-pointer bg-sky-700 text-white text-sm"
+              >
+                توصیه شده ها
+              </div>
+            </div>
+            <!-- content -->
+            <div class="p-5" id="tab-contents">
+              <div class="my-2 px-2">
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >گذار از جهان گذار از جهان گذار از جهان گذار از جهان الزامات
+                    گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >گذار از جهان گذار از جهان گذار از جهان گذار از جهان الزامات
+                    گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >گذار از جهان گذار از جهان گذار از جهان گذار از جهان الزامات
+                    گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >گذار از جهان گذار از جهان گذار از جهان گذار از جهان الزامات
+                    گذار از جهان تک قطبی</span
+                  >
+                </a>
+              </div>
+              <div class="my-2 px-2 hidden">
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >گذار از جهان گذار از جهان گذار از جهان گذار از جهان الزامات
+                    گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >گذار از جهان گذار از جهان گذار از جهان گذار از جهان الزامات
+                    گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >گذار از جهان گذار از جهان گذار از جهان گذار از جهان الزامات
+                    گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >گذار از جهان گذار از جهان گذار از جهان گذار از جهان الزامات
+                    گذار از جهان تک قطبی</span
+                  >
+                </a>
+              </div>
+              <div class="my-2 px-2 hidden">
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >گذار از جهان گذار از جهان گذار از جهان گذار از جهان الزامات
+                    گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >گذار از جهان گذار از جهان گذار از جهان گذار از جهان الزامات
+                    گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >گذار از جهان گذار از جهان گذار از جهان گذار از جهان الزامات
+                    گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >الزامات گذار از جهان تک قطبی</span
+                  >
+                </a>
+                <a href="#" class="group flex items-center gap-2 my-2">
+                  <i class="bx bxl-netlify text-yellow-500"></i>
+                  <span class="text-sm hover:text-yellow-500 line-clamp-1"
+                    >گذار از جهان گذار از جهان گذار از جهان گذار از جهان الزامات
+                    گذار از جهان تک قطبی</span
+                  >
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="bg-yellow-200 col-span-12 lg:col-span-3">test</div>
+      </section>
+
+      <!-- <section class="grid grid-cols-12 gap-2 mb-6">
+        <div class="bg-pink-100 col-span-12 lg:col-span-6">test</div>
+        <div class="bg-yellow-200 col-span-12 lg:col-span-3">test</div>
+        <div class="bg-yellow-200 col-span-12 lg:col-span-3">test</div>
+      </section> -->
+    </main>
+
+    <!-- ####################################################### -->
+
+    <!-- scripts -->
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

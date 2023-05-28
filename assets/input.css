@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "IranSans";
+  src: url("./fonts/IRANSansWeb.eot");
+  src: url("./fonts/IRANSansWeb.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/IRANSansWeb.woff2") format("woff2"),
+    url("./fonts/IRANSansWeb.woff") format("woff"),
+    url("./fonts/IRANSansWeb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  img {
+    @apply block w-full;
+  }
+  h1 {
+    @apply text-5xl font-semibold;
+  }
+  h2 {
+    @apply text-4xl font-semibold;
+  }
+  h3 {
+    @apply text-3xl font-semibold;
+  }
+  h4 {
+    @apply text-2xl font-semibold;
+  }
+}
+
+@layer components {
+  .wrapper {
+    @apply w-[95vw] mx-auto max-w-6xl;
+  }
+  .btn-blue {
+    @apply inline-block px-3 py-1.5 text-white border-2 bg-blue-500 border-blue-500 rounded-sm hover:opacity-80 active:bg-blue-600;
+  }
+  .btn-red {
+    @apply inline-block px-3 py-1.5 text-white border-2 bg-red-500 border-red-500 rounded-sm hover:opacity-80 active:bg-red-600;
+  }
+  .btn-green {
+    @apply inline-block px-3 py-1.5 text-white border-2 bg-green-500 border-green-500 rounded-sm hover:opacity-80 active:bg-green-600;
+  }
+  .btn-yellow {
+    @apply inline-block px-3 py-1.5 text-gray-700 border-2 bg-yellow-400 border-yellow-400 rounded-sm hover:opacity-80 active:bg-yellow-500;
+  }
+  .btn-dark {
+    @apply inline-block px-3 py-1.5 text-white border-2 bg-gray-700 border-gray-700 rounded-sm hover:opacity-80 active:bg-gray-800;
+  }
+
+  .btn-blue-outline {
+    @apply inline-block px-3 py-1.5 text-blue-500 border-2  border-blue-600 rounded-sm hover:opacity-80 active:bg-blue-600 active:text-white;
+  }
+  .btn-red-outline {
+    @apply inline-block px-3 py-1.5 text-red-500 border-2  border-red-600 rounded-sm hover:opacity-80 active:bg-red-600 active:text-white;
+  }
+  .btn-green-outline {
+    @apply inline-block px-3 py-1.5 text-green-500 border-2  border-green-600 rounded-sm hover:opacity-80 active:bg-green-600 active:text-white;
+  }
+  .btn-yellow-outline {
+    @apply inline-block px-3 py-1.5 text-yellow-500 border-2  border-yellow-500 rounded-sm hover:opacity-80 active:bg-yellow-500 active:text-white;
+  }
+  .btn-dark-outline {
+    @apply inline-block px-3 py-1.5 text-gray-700 border-2 border-gray-800 rounded-sm hover:opacity-80 active:bg-gray-800 active:text-white;
+  }
+
+  .input {
+    @apply focus:outline-none px-4 py-1.5 border rounded w-full;
+  }
+}

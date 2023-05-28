@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="../../assets/output.css" />
+    <title>اسلایدر</title>
+  </head>
+  <body class="bg-slate-100 font-IranSans">
+    <!-- wrapper -->
+    <main class="wrapper py-16">
+      <!-- slider -->
+      <section id="slider" class="relative">
+        <!-- images -->
+        <div id="images" class="h-[600px]">
+          <img
+            src="../../assets/img/bg-1.jpg"
+            alt="image"
+            class="absolute h-[600px] object-cover"
+          />
+          <img
+            src="../../assets/img/bg-2.jpg"
+            alt="image"
+            class="absolute h-[600px] object-cover hidden"
+          />
+          <img
+            src="../../assets/img/bg-3.jpg"
+            alt="image"
+            class="absolute h-[600px] object-cover hidden"
+          />
+          <img
+            src="../../assets/img/bg-4.jpg"
+            alt="image"
+            class="absolute h-[600px] object-cover hidden"
+          />
+          <img
+            src="../../assets/img/bg-5.jpg"
+            alt="image"
+            class="absolute h-[600px] object-cover hidden"
+          />
+          <img
+            src="../../assets/img/bg-6.jpg"
+            alt="image"
+            class="absolute h-[600px] object-cover hidden"
+          />
+          <img
+            src="../../assets/img/bg-7.jpg"
+            alt="image"
+            class="absolute h-[600px] object-cover hidden"
+          />
+        </div>
+
+        <!-- navigations -->
+        <div class="flex justify-between w-full">
+          <i
+            id="next"
+            class="bx bxs-chevron-right-square bx-lg text-gray-800 cursor-pointer hover:opacity-80"
+          ></i>
+          <i
+            id="prev"
+            class="bx bxs-chevron-left-square bx-lg text-gray-800 cursor-pointer hover:opacity-80"
+          ></i>
+        </div>
+      </section>
+    </main>
+    <!-- scripts -->
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

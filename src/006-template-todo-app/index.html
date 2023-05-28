@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="../../assets/output.css" />
+    <style>
+      body {
+        background-image: linear-gradient(
+          to right top,
+          #d16ba5,
+          #c777b9,
+          #ba83ca,
+          #aa8fd8,
+          #9a9ae1,
+          #8aa7ec,
+          #79b3f4,
+          #69bff8,
+          #52cffe,
+          #41dfff,
+          #46eefa,
+          #5ffbf1
+        );
+      }
+    </style>
+    <title>To Do</title>
+  </head>
+  <body class="font-IranSans min-h-screen grid place-content-center">
+    <!-- wrapper -->
+    <main class="bg-white px-4 py-8 rounded shadow-lg">
+      <div class="w-[400px]">
+        <!-- logo -->
+        <div class="flex justify-center">
+          <img src="./logo.png" alt="" class="w-16 text-center" />
+        </div>
+        <!-- title -->
+        <h4 class="my-4 text-slate-700">لیست کارها</h4>
+
+        <!-- to do form -->
+        <form action="" method="post" class="flex gap-1">
+          <input type="text" class="input" placeholder="اضافه کردن کار جدید" />
+          <button type="submit" class="btn-blue grid place-content-center px-8">
+            <i class="bx bx-plus"></i>
+          </button>
+        </form>
+
+        <hr class="my-4" />
+
+        <!-- to do list -->
+        <div class="flex gap-4 flex-col">
+          <!-- to do loop -->
+          <div class="flex justify-between gap-2 items-center">
+            <div class="flex gap-3 items-center">
+              <input type="checkbox" name="" id="task01" />
+              <label
+                for="task01"
+                class="text-slate-500 cursor-pointer select-none"
+                >کار شماره یک</label
+              >
+            </div>
+            <i
+              class="bx bxs-trash text-xl text-red-400 cursor-pointer hover:text-red-600"
+            ></i>
+          </div>
+          <hr />
+          <!-- to do loop -->
+          <div class="flex justify-between gap-2 items-center">
+            <div class="flex gap-3 items-center">
+              <input type="checkbox" name="" id="task02" />
+              <label
+                for="task02"
+                class="text-slate-500 cursor-pointer select-none"
+                >کار شماره دو</label
+              >
+            </div>
+            <i
+              class="bx bxs-trash text-xl text-red-400 cursor-pointer hover:text-red-600"
+            ></i>
+          </div>
+          <hr />
+          <!-- to do loop -->
+          <div class="flex justify-between gap-2 items-center">
+            <div class="flex gap-3 items-center">
+              <input type="checkbox" name="" id="task03" />
+              <label
+                for="task03"
+                class="text-slate-400 cursor-pointer select-none line-through"
+                >کار شماره سه</label
+              >
+            </div>
+            <i
+              class="bx bxs-trash text-xl text-red-400 cursor-pointer hover:text-red-600"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- scripts -->
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
